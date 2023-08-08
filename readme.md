@@ -1,13 +1,19 @@
 # Python
 
+> Python libraries + testing code
+
 ## File structure
 
 - [src](src) - testing out python code
   - [main.py](src/main.py) - main entry point
 
-## Run
+## Setup
 
 Everything is driven using [bun](https://bun.sh/) commands.
+
+Assumes [python](https://www.python.org/downloads/) is installed.
+
+## Run
 
 ```
 bun run dev
@@ -23,7 +29,7 @@ If issue/idea you have is not there, [open new issue](../../issues/new/choose) o
 
 Any PR with code/doc improvements is welcome. ✨
 
-There is a [personal Discord](https://discord.com/invite/TVafwaD23d) you can join for more indepth discussions related to this repo or [others](https://github.com/nikitavoloboev#src).
+Join [Discord](https://discord.com/invite/TVafwaD23d) for more indepth discussions on this repo and [others](https://github.com/nikitavoloboev#src).
 
 ## Tasks
 
