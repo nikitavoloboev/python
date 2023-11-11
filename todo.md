@@ -1,3 +1,6 @@
+- https://github.com/outlines-dev/outlines copy their setup
+- use https://github.com/outlines-dev/outlines for llm
+
 ## Try
 
 - https://github.com/KillianLucas/open-interpreter
