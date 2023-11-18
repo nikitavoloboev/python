@@ -1,4 +1,4 @@
-# TODO: generated with gpt-4, test
+# TODO: ai generated, test
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
