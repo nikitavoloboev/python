@@ -1,5 +1,6 @@
 - https://github.com/outlines-dev/outlines copy their setup
 - use https://github.com/outlines-dev/outlines for llm
+- [serve LLaMA 70B model with Modal](https://twitter.com/hamelhusain/status/1688611977474846720)
 
 ## Try
 
