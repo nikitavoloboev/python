@@ -1,6 +1,6 @@
 # Python
 
-> Python libraries + testing code
+> Python libraries and other code
 
 ## File structure
 
