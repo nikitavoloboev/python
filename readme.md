@@ -9,7 +9,9 @@
 
 ## Setup
 
-Everything is driven using [bun](https://bun.sh/) commands.
+<!-- TODO: add nix setup -->
+
+[Bun](https://bun.sh/) is used to run things.
 
 Assumes [python](https://www.python.org/downloads/) is installed.
 
