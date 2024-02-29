@@ -18,7 +18,7 @@ Assumes [python](https://www.python.org/downloads/) is installed.
 ## Run
 
 ```
-bun run dev
+bun dev
 ```
 
 Runs: `python3 src/main.py`
