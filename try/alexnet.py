@@ -111,5 +111,5 @@ torch.save(model.state_dict(), "alexnet.pth")
 
 # Extra:
 # ImageNet Classification with Deep Convolutional Neural Networks (Paper Explained): https://www.youtube.com/watch?v=Nq3auVtvd9Q
-# One weird trick for parallelizing convolutional neural networks (2014 Paper): One weird trick for parallelizing convolutional neural networks
+# One weird trick for parallelizing convolutional neural networks (2014 Paper): https://arxiv.org/abs/1404.5997
 # MLX Image Models: https://github.com/robertmccraith/mimm (can easily train + run on macs)
