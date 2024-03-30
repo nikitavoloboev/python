@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "python3 src/main.py"
+  },
+  "dependencies": {
+    "bun": "^1.0.36",
+    "watcher": "^2.3.0"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.36"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
