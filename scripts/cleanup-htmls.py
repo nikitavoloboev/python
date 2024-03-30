@@ -1,7 +1,7 @@
 import os
 import shutil
 from datetime import datetime
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
@@ -42,7 +42,7 @@ class HTMLProcessor(FileSystemEventHandler):
             meta.decompose()
 
         # Remove all comments
-        for comment in soup.find_all(text=lambda text: isinstance(text, Comment)):
+        for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
             comment.extract()
 
         # Save the cleaned HTML to clean.html

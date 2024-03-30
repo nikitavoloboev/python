@@ -16,7 +16,7 @@ async function main() {
         }
       })
       if (args[3]) {
-        await $`tput reset && python3 src/${args[3]}.py`
+        await $`tput reset && python3 try/${args[3]}.py`
       }
       break
     case undefined:
