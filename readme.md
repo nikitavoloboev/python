@@ -33,6 +33,20 @@ It's okay to submit draft PR as you can get help along the way to make it merge 
 
 Join [Discord](https://discord.com/invite/TVafwaD23d) for more indepth discussions on this repo and [others](https://github.com/nikitavoloboev#src).
 
+## Commands
+
+### bun dev
+
+> bun watch main
+
+..
+
+### bun watch
+
+> bun cmd.ts run
+
+`bun watch
+
 ### 🖤
 
 [Support on GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikiv.dev/projects).

@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "python3 src/main.py"
+    "watch": "bun cmd.ts run",
+    "dev": "bun watch main"
   },
   "dependencies": {
     "bun": "^1.0.36",

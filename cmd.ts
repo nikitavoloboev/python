@@ -12,10 +12,10 @@ async function main() {
     case "run":
       watcher.on("change", async (event) => {
         if (event.endsWith(".py")) {
-          await $`python3 ${event}`
+          await $`tput reset && python3 ${event}`
         }
       })
-      await $`python3 src/${args[3]}.py`
+      await $`tput reset && python3 src/${args[3]}.py`
       break
     case undefined:
       console.log("No command provided")
