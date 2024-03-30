@@ -15,7 +15,9 @@ async function main() {
           await $`tput reset && python3 ${event}`
         }
       })
-      await $`tput reset && python3 src/${args[3]}.py`
+      if (args[3]) {
+        await $`tput reset && python3 src/${args[3]}.py`
+      }
       break
     case undefined:
       console.log("No command provided")
