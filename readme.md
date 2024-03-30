@@ -39,13 +39,13 @@ Join [Discord](https://discord.com/invite/TVafwaD23d) for more indepth discussio
 
 > bun watch main
 
-..
+Rerun [src/main.py](src/main.py).
 
 ### bun watch
 
 > bun cmd.ts run
 
-`bun watch
+`bun watch <file>` will run and rerun the file with python on each change to `.py` files.
 
 ### 🖤
 
