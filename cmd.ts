@@ -4,8 +4,18 @@ import Watcher from "watcher"
 async function main() {
   const args = Bun.argv
   const command = args[2]
+
+  const currentFilePath = import.meta.url.replace("file://", "")
+  const currentFolder = `${currentFilePath.replace("cmd.ts", "")}`
+  const watcher = new Watcher(currentFolder, { recursive: true })
   switch (command) {
     case "run":
+      watcher.on("change", async (event) => {
+        if (event.endsWith(".py")) {
+          await $`python3 ${event}`
+        }
+      })
+      await $`python3 src/${args[3]}.py`
       break
     case undefined:
       console.log("No command provided")
@@ -15,3 +25,5 @@ async function main() {
       break
   }
 }
+
+main()

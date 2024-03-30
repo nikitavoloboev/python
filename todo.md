@@ -9,3 +9,4 @@
 - https://github.com/daijro/hrequests
 - https://github.com/huggingface/transformers
 - https://github.com/leptonai/leptonai-sdk
+- https://twitter.com/migtissera/status/1725954036414001552 implement all from scratch
