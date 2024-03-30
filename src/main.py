@@ -1,1 +1,1 @@
-print("wow")
+print("")
