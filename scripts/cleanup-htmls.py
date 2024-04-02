@@ -4,6 +4,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup, Comment
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+from markdown import markdown
 
 class HTMLProcessor(FileSystemEventHandler):
     def on_created(self, event):
@@ -45,10 +46,41 @@ class HTMLProcessor(FileSystemEventHandler):
         for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
             comment.extract()
 
-        # Save the cleaned HTML to clean.html
-        clean_file_path = os.path.join(os.path.dirname(file_path), 'clean.html')
+        # Remove all <svg> tags
+        for svg in soup.find_all('svg'):
+            svg.decompose()
+
+        # Remove all <button> tags
+        for button in soup.find_all('button'):
+            button.decompose()
+
+        # Remove all <template> tags
+        for template in soup.find_all('template'):
+            template.decompose()
+
+        # Remove all <path> tags
+        for path in soup.find_all('path'):
+            path.decompose()
+
+        # Remove all <span> tags
+        for span in soup.find_all('span'):
+            span.unwrap()
+
+        # Remove all <div> tags
+        for div in soup.find_all('div'):
+            div.unwrap()
+
+        # Remove all <a> tags but keep the text content
+        for a in soup.find_all('a'):
+            a.unwrap()
+
+        # Convert the cleaned HTML to Markdown
+        markdown_content = markdown(str(soup))
+
+        # Save the Markdown content to clean.md
+        clean_file_path = os.path.join(os.path.dirname(file_path), 'clean.md')
         with open(clean_file_path, 'w', encoding='utf-8') as file:
-            file.write(str(soup))
+            file.write(markdown_content)
 
         # Rename the processed output.html file
         current_date = datetime.now().strftime('%Y-%m-%d')
