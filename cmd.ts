@@ -1,5 +1,6 @@
 import { $ } from "bun"
 import Watcher from "watcher"
+import {} from "@nikiv/utils"
 
 async function main() {
   const args = Bun.argv
