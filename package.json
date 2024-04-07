@@ -7,8 +7,7 @@
     "semi": false
   },
   "dependencies": {
-    "@marvinh-test/return-type": "npm:@jsr/marvinh-test__return-type@^0.0.1",
-    "@nikiv/utils": "npm:@jsr/nikiv__utils@^0.1.3",
+    "@nikiv/utils": "npm:@jsr/nikiv__utils",
     "bun": "^1.1.2",
     "watcher": "^2.3.1"
   },
