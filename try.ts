@@ -1,3 +1,3 @@
-import { getClipboard } from "@nikiv/ts-utils"
+import { getClipboard } from "@nikiv/utils"
 
 console.log(getClipboard())
