@@ -1,3 +1,3 @@
-import { getClipboard } from "@nikiv/utils"
+import { getClipboard, executeJxa } from "@nikiv/utils"
 
 console.log(getClipboard())

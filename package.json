@@ -8,7 +8,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@nikiv/utils": "npm:@jsr/nikiv__utils",
+    "@nikiv/utils": "npm:@jsr/nikiv__utils@^0.1.6",
     "bun": "^1.1.2",
     "watcher": "^2.3.1"
   },
