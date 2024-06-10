@@ -2,11 +2,6 @@
 
 > Python libraries and other code
 
-## Files
-
-- [src](src)
-- [try](try)
-
 ## Setup
 
 <!-- TODO: add nix setup -->
