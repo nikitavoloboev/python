@@ -1,0 +1,36 @@
+[32m2024-07-25T20:50:45.995153+0400[0m [1mAdding multiple base models as tools --->[0m
+[32m2024-07-25T20:51:35.744532+0400[0m [1mAdding multiple base models as tools --->[0m
+[32m2024-07-25T20:51:54.786606+0400[0m [1mAdding multiple base models as tools --->[0m
+[32m2024-07-25T20:51:54.912304+0400[0m [1mAutonomous Agent Activated.[0m
+[32m2024-07-25T20:51:54.912551+0400[0m [1mAll systems operational. Executing task...[0m
+[32m2024-07-25T20:51:54.916192+0400[0m [1mTokens available: 194536[0m
+[32m2024-07-25T20:51:54.916353+0400[0m [1mTemperature: 0.8512766681276763[0m
+[32m2024-07-25T20:51:54.922390+0400[0m [31m[1mAttempt 1: Error generating response: model "llama3" not found, try pulling it first[0m
+[32m2024-07-25T20:51:54.926931+0400[0m [31m[1mAttempt 2: Error generating response: model "llama3" not found, try pulling it first[0m
+[32m2024-07-25T20:51:54.931541+0400[0m [31m[1mAttempt 3: Error generating response: model "llama3" not found, try pulling it first[0m
+[32m2024-07-25T20:51:54.931789+0400[0m [31m[1mFailed to generate a valid response after retry attempts.[0m
+[32m2024-07-25T20:51:54.931910+0400[0m [1mAutosaving agent state.[0m
+[32m2024-07-25T20:51:54.932025+0400[0m [1mSaving Agent Financial-Analysis-Agent state to: Financial-Analysis-Agent_state.json[0m
+[32m2024-07-25T20:52:31.645840+0400[0m [1mAdding multiple base models as tools --->[0m
+[32m2024-07-25T20:52:31.769129+0400[0m [1mAutonomous Agent Activated.[0m
+[32m2024-07-25T20:52:31.769379+0400[0m [1mAll systems operational. Executing task...[0m
+[32m2024-07-25T20:52:31.773280+0400[0m [1mTokens available: 194536[0m
+[32m2024-07-25T20:52:31.773487+0400[0m [1mTemperature: 0.010522150981918776[0m
+[32m2024-07-25T20:52:44.070831+0400[0m [1mTemperature: 0.012888584121418023[0m
+[32m2024-07-25T20:52:51.436927+0400[0m [1mTemperature: 0.5789680724852437[0m
+[32m2024-07-25T20:52:54.598629+0400[0m [1mTemperature: 0.5035685091458643[0m
+[32m2024-07-25T20:52:57.559686+0400[0m [1mTemperature: 0.09373526443659042[0m
+[32m2024-07-25T20:53:03.454551+0400[0m [1mTemperature: 0.8642236001654626[0m
+[32m2024-07-25T20:53:27.420261+0400[0m [1mAdding multiple base models as tools --->[0m
+[32m2024-07-25T20:53:27.541587+0400[0m [1mAutonomous Agent Activated.[0m
+[32m2024-07-25T20:53:27.541827+0400[0m [1mAll systems operational. Executing task...[0m
+[32m2024-07-25T20:53:27.545792+0400[0m [1mTokens available: 194536[0m
+[32m2024-07-25T20:53:27.545960+0400[0m [1mTemperature: 0.6062171362422906[0m
+[32m2024-07-25T20:53:43.464396+0400[0m [1mTemperature: 0.18725080413655415[0m
+[32m2024-07-25T20:53:56.311153+0400[0m [1mTemperature: 0.2362660891417826[0m
+[32m2024-07-25T20:54:02.408708+0400[0m [1mTemperature: 0.018233635405769055[0m
+[32m2024-07-25T20:56:11.060858+0400[0m [1mAdding multiple base models as tools --->[0m
+[32m2024-07-25T20:56:11.182950+0400[0m [1mAutonomous Agent Activated.[0m
+[32m2024-07-25T20:56:11.183250+0400[0m [1mAll systems operational. Executing task...[0m
+[32m2024-07-25T20:56:11.187508+0400[0m [1mTokens available: 194541[0m
+[32m2024-07-25T20:56:11.187756+0400[0m [1mTemperature: 0.5275019987481985[0m

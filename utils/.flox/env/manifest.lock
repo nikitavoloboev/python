@@ -1,0 +1,146 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "python3": {
+        "pkg-path": "python3"
+      }
+    },
+    "vars": {},
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/8if8hpl604n8w6qj33gka95qbsiv6r4r-python3-3.12.4.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "python3-3.12.4",
+      "pname": "python3",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3swy1vadi125g0c1vxqp8ykdr749803j-python3-3.12.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/nwp16553ccgv4zdl8xyvlxxxjd4p5ckk-python3-3.12.4.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "python3-3.12.4",
+      "pname": "python3",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/19vjjqg7jbfblqapf63nm9ich1xdq9dx-python3-3.12.4-debug",
+        "out": "/nix/store/sz2facg15yq3ziqkidb1dkkglwzkkg8a-python3-3.12.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/n2q9hqgsccw0rx57hfivh49qk618swsr-python3-3.12.4.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "python3-3.12.4",
+      "pname": "python3",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3y5wy1i9nq5293knm23mxsj5l6w41h2l-python3-3.12.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/281f9dj1jka9gjj55vsgs3hilw0la5iz-python3-3.12.4.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "name": "python3-3.12.4",
+      "pname": "python3",
+      "rev": "68c9ed8bbed9dfce253cc91560bf9043297ef2fe",
+      "rev_count": 655874,
+      "rev_date": "2024-07-21T11:40:59Z",
+      "scrape_date": "2024-07-23T05:31:27Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/3x6jqv5yw212v8rlwql88cn94dginq32-python3-3.12.4-debug",
+        "out": "/nix/store/z7xxy35k7620hs6fn6la5fg2lgklv72l-python3-3.12.4"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}

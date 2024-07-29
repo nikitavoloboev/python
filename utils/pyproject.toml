@@ -3,10 +3,11 @@ name = "utils"
 version = "0.1.0"
 description = ""
 authors = ["Nikita <github@nikiv.dev>"]
-readme = "README.md"
+readme = "readme.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+swarms = {git = "https://github.com/kyegomez/swarms.git"}
 
 
 [build-system]
