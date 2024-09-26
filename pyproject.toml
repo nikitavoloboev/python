@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Python libraries and other code"
 readme = "readme.md"
 requires-python = ">=3.12"
-dependencies = ["ruff>=0.6.7"]
+dependencies = [
+    "accelerate>=0.34.2",
+    "datasets>=3.0.1",
+    "exllamav2>=0.2.2",
+    "lark>=1.2.2",
+    "llama-cpp-python>=0.3.0",
+    "openai>=1.48.0",
+    "prompts>=0.0.1",
+    "ruff>=0.6.7",
+    "torch>=2.4.1",
+    "transformers>=4.45.0",
+]

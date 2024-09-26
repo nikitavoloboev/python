@@ -4,6 +4,9 @@
 .env*.local
 output
 dist
+.idea
+# py
+__pycache__
 # ts
 node_modules
 package-lock.json
