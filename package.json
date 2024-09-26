@@ -1,0 +1,7 @@
+{
+  "name": "py",
+  "scripts": {
+    "dev": "watchexec --no-vcs-ignore --restart --exts py --clear --project-origin . \"tput reset && python3 scripts/run.py\"",
+    "dev:once": "python3 scripts/run.py"
+  }
+}
